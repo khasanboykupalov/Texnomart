@@ -1,0 +1,57 @@
+.search-form{
+    position: relative;
+}
+.search-form_input{
+    width: 270px;
+    background-color: transparent;
+    border: none;
+    padding:12px 15px 12px 49px; /* text uchun joy icon ga halaqit bermaslidi uchun*/
+
+
+    &::-webkit-input-placeholder { 
+        color: #ffffff;
+      }
+    &::-moz-placeholder { 
+        color: #ffffff;
+      }
+    &:-ms-input-placeholder { 
+        color: #ffffff;
+      }
+    &:-moz-placeholder { 
+        color: #ffffff;
+        opacity: 1;
+      }
+  &:hover{
+    background-color: #212a3a;
+  }
+  &:focus{
+    background-color: #ffffff;
+
+    &::-webkit-input-placeholder { 
+        color: #000000;
+      }
+    &::-moz-placeholder { 
+        color: #000000;
+      }
+    &:-ms-input-placeholder { 
+        color: #000000;
+      }
+    &:-moz-placeholder { 
+        color: #000000;
+        opacity: 1;
+      }
+  }
+}
+
+.search-form_icon{
+    position: absolute;
+    top: 10px;
+    left: 17px;
+    opacity: 0.3;
+}
+.search-form:hover .search-form_icon{
+    opacity: 1;
+}
+.search-form_input:focus + .search-form_icon .search-form_path{
+    fill: #ee3643;
+}

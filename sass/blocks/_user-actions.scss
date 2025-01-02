@@ -1,0 +1,76 @@
+.user-actions{
+    @include reset-list;
+    display: flex;
+}
+
+
+.user-actions_link{
+    position: relative;
+    display: block;
+    padding-top: 12px;
+    padding-bottom: 13px;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+
+    &:hover, 
+    &:focus {
+        background-color: #212a3a;
+    }
+    &:active{
+        background-color: #161d29;
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    &--bookmark{
+        padding-left: 44px;
+        padding-right: 28px;
+    }
+    &--card{
+        padding-left: 50px;
+        padding-right: 31px;
+        &-full{
+            background-color: #ee3643; //Full bo'lgandagi qizil orqa fon
+        }
+    }
+    &--order{
+        padding-left: 20px;
+        padding-right: 22px;
+        background-color: #63a63e;
+        
+        &:hover,
+        &:focus{
+            background-color : #5fbb2d;
+        }
+
+        &:active{
+            background-color: #518538;
+        }
+    }
+}
+.user-action_bookmark-icon{
+    position: absolute;
+    top: 11px;
+    left: 15px;
+    opacity: 0.3;
+}
+.user-actions_link:hover .user-action_bookmark-icon,
+.user-actions_link:focus .user-action_bookmark-icon{
+    opacity: 1;
+}
+.user-actions_card-icon{
+    position: absolute;
+    top: 12px;
+    left: 17px;
+    opacity: 0.3;
+}
+.user-actions_link:hover .user-actions_card-icon,
+.user-actions_link:focus .user-actions_card-icon{
+    opacity: 1;
+}
+.user-actions_link:active .user-action_bookmark-icon{
+    opacity: 0.5;
+}
+.user-actions_link:active .user-actions_card-icon{
+    opacity: 0.5; 
+}

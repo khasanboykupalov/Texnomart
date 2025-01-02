@@ -1,0 +1,51 @@
+.user-navigation_list{
+    @include reset-list;
+    display: flex;
+    font-size: 21px;
+    line-height: 21px;
+}
+.user-navigation_item{
+    flex-shrink: 0;
+}
+.user-navigation_link{
+    position: relative;
+    display: block;
+    padding: 14px 25px 11px;
+    text-decoration: none;
+    color: #000000;
+    background-color: #ffffff;
+    
+    &-login {
+        padding-left: 48px;
+        margin-right: 10px;
+    }
+        &:hover,
+        &:focus{
+            color: #ee3643;
+
+            .user-navigation_icon{
+                opacity: 1;
+            }
+             .user-navigation_icon path{
+                fill: #2e405c;
+            }
+        }
+        &:active{
+            color: rgba(0, 0, 0, 0.3);
+
+            .user-navigation_icon{
+                opacity: 0.3;
+            }
+             .user-navigation_svg-path{
+                fill: #c5c5c5;
+            }
+        }
+               
+}
+.user-navigation_icon{
+    position: absolute;
+    opacity: 0.3;
+    top: 14px;
+    left: 14px;
+}
+

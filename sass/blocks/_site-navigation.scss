@@ -1,0 +1,26 @@
+
+.site-navigation_list{
+    @include reset-list;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #32425c;
+    font-size: 17px;
+    line-height: 17px;
+    box-shadow: inset 0 -5px 0 0 #293449;
+}
+.site-navigation_link{
+    display: block;
+    padding: 20px 29px 19px;
+    color: #ffffff;
+    text-decoration: none;
+
+    &:hover,
+    &:focus{
+        background-color: #293449;
+    }
+    &:active{
+        background-color: #1d2739;
+        color: rgba(255, 255, 255, 0.5);
+    }
+}

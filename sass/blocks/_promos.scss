@@ -1,0 +1,108 @@
+.promos{
+    padding-top: 59px;
+    font-family: "Cuprum", "Arial", sans-serif;
+}
+.promos_container{
+    display: flex;
+    justify-content: space-between;
+}
+.promos_left{
+    flex-shrink: 0;
+    width: 620px;
+}
+.promos_right{
+    flex-shrink: 0;
+    width: 300px;
+}
+.promos_list{
+    display: flex;
+    flex-wrap: wrap;
+    @include reset-list;
+    justify-content: space-between;
+}
+.promos_item{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 300px;
+    height: 123px;
+    padding: 23px 23px 22px;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+    &-material{
+        background-color: #ffbf47;
+        background-image: url(/img/paint-box.svg);
+        background-position: 197px 13px;
+    }
+
+    &-instrument{
+        background-color: #3bbce3;
+        background-image: url(/img/drill.svg);
+        background-position: 197px 13px;
+    }
+    &-tech{
+        margin-left: 20px;
+        background-color: #dc91d8;
+        background-image: url(/img/tractor.svg);
+        background-position: 170px 13px;
+    }
+
+    &-sale{
+        margin-left: 20px;
+        background-color: #8ed78f;
+        background-image: url(/img/sale.svg);
+        background-position: 180px 15px;
+    }
+    &-delivery{
+        margin-left: 20px;
+        background-color:#ffc047;
+        background-image: url(/img/delivery.svg);
+        background-position: 170px 17px;
+    }
+    &-new{
+        &::after{
+        position: absolute;
+        top: 7px;
+        right: -33px;
+        width: 100px;
+        text-align: center;
+        content: "new";
+        transform: rotate(45deg);
+        background-color: #ee3643;
+        color: #ffffff;
+        }
+        
+
+    }
+}
+.promos_title{
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 24px;
+    line-height: 30px;
+    color: #ffffff;
+}
+.promos_link{
+    display: block;
+    width: 135px;
+    padding: 10px 0;
+    font-size: 14px;
+    line-height: 18px;
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+
+    &:hover,
+    &:focus{
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+    &:active{
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+}

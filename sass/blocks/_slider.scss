@@ -1,0 +1,16 @@
+.slider_list{
+    @include reset-list;
+
+}
+.slider_item{
+    background-color: blueviolet;
+    width: 620px;
+    height: 266px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    &-drell{
+        background-image: url(/img/portfolio-2.jpg);
+    }
+}

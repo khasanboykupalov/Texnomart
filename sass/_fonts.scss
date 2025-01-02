@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "PT Sans";
+        src: url(../fonts/PTSans-Regular.woff) format(woff), 
+        url(../fonts/PTSans-Regular.woff2) format(woff2) format(woff2);
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face{
+    font-family: "PT Sans";
+        src: url(../fonts/PTSans-Italic.woff) format(woff), 
+        url(../fonts/PTSans-Italic.woff2) format(woff2);
+    font-weight: 400;
+    font-style: italic;
+
+}
+@font-face {
+    font-family:"PT Sans" ;
+        src: url(../fonts/PTSans-Bold.woff) format(woff),
+        url(../fonts/PTSans-Bold.woff2) format(woff2);
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "PT Sans";
+        src: url(../fonts/PTSans-BoldItalic.woff) format(woff),
+        url(../fonts/PTSans-BoldItalic.woff2) format(woff2);
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face{
+    font-family: "Cuprum";
+        src: url(../fonts/Cuprum-Regular.woff) format(woff),
+        url(../fonts/Cuprum-Regular.woff2) format(woff2);
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Cuprum";
+        src: url(../fonts/Cuprum-Italic.woff) format(woff),
+        url(../fonts/Cuprum-Italic.woff2) format(woff2);
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face{
+    font-family: "Cuprum";
+        src: url(../fonts/Cuprum-Bold.woff) format(woff),
+        url(../fonts/Cuprum-Bold.woff2) format(woff2);
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Cuprum";
+        src: url(../fonts/Cuprum-BoldItalic.woff) format(woff),
+        url(../fonts/Cuprum-BoldItalic.woff2) format(woff2);
+    font-weight: 700;
+    font-style: italic;
+}

@@ -1,0 +1,21 @@
+.logo{
+     padding: 14px 56px 11px 55px;
+     background-color: #ee3643;
+     border-bottom: 5px solid #bf2733;
+     margin-bottom: -5px;
+
+
+     &:hover,
+     &:focus {
+        border-bottom-color: #9b1b25 ;
+        background-color: #ca2c37;
+     }
+     &:active{
+        border-bottom-color:#8f1922 ;
+        background-color: #ba2733;
+     }
+}
+.logo-img{
+    vertical-align: middle;
+
+}

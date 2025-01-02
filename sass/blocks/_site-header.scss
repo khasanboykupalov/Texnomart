@@ -1,0 +1,54 @@
+.site-header{
+    padding-bottom: 50px;
+    background-color: #f4f7f9;
+    font-family: "Cuprum", "Arial", sans-serif;
+}
+.site-header_container{
+    display: flex;
+    align-items: flex-start;
+
+}
+.site-header_top{
+    background-color: #293449;
+    font-size: 17px;
+    line-height: 19px;
+
+}
+.site-header_middle{
+    display: flex;
+    align-items: flex-start;
+    padding-top: 46px;
+    padding-bottom: 24px;
+}
+.site-header_lead{
+    width: 196px;
+    margin: 0;
+    margin-left: 53px;
+    font-size: 16px;
+    line-height: 23px;
+    color: #ee3643;
+}
+.site-header_contacts{
+    width: 270px;
+    margin-right: 69px;
+    text-align: center;
+    margin-left: 71px;
+}
+.site-header_phone{
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    border: 3px solid #ffffff;
+    margin-bottom: 5px;
+    font-size: 21px;
+    line-height: 21px;
+    color: #ee3643;
+    text-decoration: none;
+    background: url("../img/phone-call.svg") no-repeat 15px center;
+}
+.site-header_address{
+    color: #293449;
+    font-size: 15px;
+    line-height: 24px;
+    font-style: normal;
+}
